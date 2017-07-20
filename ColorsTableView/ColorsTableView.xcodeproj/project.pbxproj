@@ -15,6 +15,8 @@
 		3C003FF51F18F84F007DFB6D /* ColorsTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C003FF41F18F84F007DFB6D /* ColorsTableViewTests.swift */; };
 		3C0040001F18F84F007DFB6D /* ColorsTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C003FFF1F18F84F007DFB6D /* ColorsTableViewUITests.swift */; };
 		3C00400E1F18F8CE007DFB6D /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C00400D1F18F8CE007DFB6D /* ColorsViewController.swift */; };
+		3C00404F1F2044BC007DFB6D /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C00404E1F2044BC007DFB6D /* ColorDetailViewController.swift */; };
+		3C0040511F204A6A007DFB6D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0040501F204A6A007DFB6D /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3C003FFF1F18F84F007DFB6D /* ColorsTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewUITests.swift; sourceTree = "<group>"; };
 		3C0040011F18F84F007DFB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C00400D1F18F8CE007DFB6D /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		3C00404E1F2044BC007DFB6D /* ColorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		3C0040501F204A6A007DFB6D /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				3C003FDC1F18F84E007DFB6D /* AppDelegate.swift */,
-				3C00400D1F18F8CE007DFB6D /* ColorsViewController.swift */,
 				3C003FE01F18F84E007DFB6D /* Main.storyboard */,
 				3C003FE61F18F84E007DFB6D /* Assets.xcassets */,
 				3C003FE81F18F84E007DFB6D /* LaunchScreen.storyboard */,
+				3C00400D1F18F8CE007DFB6D /* ColorsViewController.swift */,
 				3C003FEB1F18F84E007DFB6D /* Info.plist */,
+				3C00404E1F2044BC007DFB6D /* ColorDetailViewController.swift */,
 				3C003FE31F18F84E007DFB6D /* ColorsTableView.xcdatamodeld */,
+				3C0040501F204A6A007DFB6D /* Color.swift */,
 			);
 			path = ColorsTableView;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				3C003FDD1F18F84E007DFB6D /* AppDelegate.swift in Sources */,
 				3C00400E1F18F8CE007DFB6D /* ColorsViewController.swift in Sources */,
 				3C003FE51F18F84E007DFB6D /* ColorsTableView.xcdatamodeld in Sources */,
+				3C0040511F204A6A007DFB6D /* Color.swift in Sources */,
+				3C00404F1F2044BC007DFB6D /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +519,7 @@
 				3C0040061F18F84F007DFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0040071F18F84F007DFB6D /* Build configuration list for PBXNativeTarget "ColorsTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				3C0040091F18F84F007DFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C00400A1F18F84F007DFB6D /* Build configuration list for PBXNativeTarget "ColorsTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				3C00400C1F18F84F007DFB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
